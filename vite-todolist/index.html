@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I miei task</title>
+</head>
+<body>
+
+  <main>
+    <h1>I miei task</h1>
+
+    <!-- render benvenuto (es7) -->
+    <div id="benvenuto"></div>
+
+    <form id="form-task">
+      <input
+        type="text"
+        id="campo-task"
+        placeholder="Scrivi qui un task..."
+        autocomplete="off">
+      <button type="submit">Aggiungi</button>
+    </form>
+
+    <ul id="lista"></ul>
+
+    <!-- render azioni (es9) -->
+    <div id="azioni"></div>
+
+    <p id="info"></p>
+
+    <!-- render messaggio (es8) -->
+    <p id="messaggio"></p>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
